@@ -1,0 +1,559 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image: url(../1.jpg);
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	justify-content: center;
+	text-align: center;
+}
+
+html { 
+  background: url(../1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.logo img{
+	float: left;
+	width: 140px; 
+	height: auto;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 30px;
+	text-shadow: 2px 2px 5px black;
+}
+
+
+}
+.cover img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px 20px;
+
+}
+
+
+.textbelowimg p {
+	text-align: center;
+  	text-justify: inter-word;
+    color: #fff;
+	font-size: 17px;
+	text-shadow: 2px 2px 5px black;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+
+.trademark p{
+	color: #fff;
+	text-shadow: 2px 2px 5px black;
+	font-size: 13px;
+	position: absolute;
+	top: 95%;
+	left: 90%;
+	transform: translate(-50%,-50%);
+	
+}
+ 
+.img-with-text img {
+	width: 270px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+	top: 57%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 70%;
+}
+
+
+.aboutme{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.aboutme h1{
+	color: #fff;
+	font-size: 30px;
+	text-shadow: 2px 2px 5px black;
+}
+
+
+.personalinfo {
+    
+  	border: 3px solid #FFFFF0;
+  	position: absolute;
+	top: 87%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 17px;
+	text-shadow: 2px 2px 5px black;
+	
+}
+
+.trademarkbio p{
+	color: #fff;
+	text-shadow: 2px 2px 5px black;
+	font-size: 13px;
+	position: absolute;
+	top: 95%;
+	left: 90%;
+	transform: translate(-50%,-50%);
+	
+}
+
+.feed-img img {
+	width: 120px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 15px 50px;
+	border-style: ridge;
+	border-color:  #FFFF00;
+}
+
+.otherface img {
+	width: 120px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+	top: 55%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+	border-radius: 15px 50px 30px;
+	border-style: ridge;
+	border-color:  #FFFF00;
+}
+
+
+.otherfocus img {
+	width: 120px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+	top: 55%;
+	left: 60%;
+	transform: translate(-50%,-50%);
+	border-radius: 15px 50px 30px;
+	border-style: ridge;
+	border-color:  #FFFF00;
+
+}
+
+.feeding{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.feeding h1{
+	color: #fff;
+	font-size: 30px;
+	text-shadow: 2px 2px 5px black;
+}
+
+div.video{
+	position: absolute;
+	top: 66%;
+	left: 75%;
+	transform: translate(-50%,-50%);
+}
+
+div.recipe{
+	background-color:#FFD700;
+	background: yellow;
+	width: 50%;
+	border-radius: 10 px;
+	font-family : Century Gothic;
+	position: absolute;
+	top: 65%;
+	left: 27%;
+	transform: translate(-50%,-50%);
+}
+
+div.recipe h1{
+	font-size: 23px;
+	color: #a31f1f;
+}
+div.recipe p{
+	color: #8f06c9;
+	font-size:17px;
+	text-shadow: 1px 1px 1px #4D056B;
+
+}
+
+div.recipe li{
+	color:#1A1B1C;
+	font-size:15px;
+	text-align: center;
+}
+
+div.video2{
+	position: absolute;
+	top: 130%;
+	left: 23%;
+	transform: translate(-50%,-50%);
+}
+
+div.recipe2{
+	background-color:#FFD700;
+	background: yellow;
+	width: 50%;
+	border-radius: 10 px;
+	font-family : Century Gothic;
+	position: absolute;
+	top: 130%;
+	left: 67%;
+	transform: translate(-50%,-50%);
+}
+
+div.recipe2 h1{
+	font-size: 23px;
+	color: #a31f1f;
+}
+div.recipe2 p{
+	color: #8f06c9;
+	font-size:17px;
+	text-shadow: 1px 1px 1px #4D056B;
+
+}
+
+div.recipe2 li{
+	color:#1A1B1C;
+	font-size:15px;
+	text-align: center;
+}
+
+div.recipe3{
+	background-color:#FFD700;
+	background: yellow;
+	width: 50%;
+	border-radius: 10 px;
+	font-family : Century Gothic;
+	position: absolute;
+	top: 200%;
+	left: 27%;
+	transform: translate(-50%,-50%);
+}
+
+div.recipe3 h1{
+	font-size: 23px;
+	color: #a31f1f;
+}
+
+div.recipe3 p{
+	color: #8f06c9;
+	font-size:17px;
+	text-shadow: 1px 1px 1px #4D056B;
+
+}
+
+div.recipe3 li{
+	color:#1A1B1C;
+	font-size:15px;
+	text-align: center;
+}
+
+div.video3{
+	position: absolute;
+	top: 200%;
+	left: 75%;
+	transform: translate(-50%,-50%);
+}
+
+div.tips img{
+	position: absolute;
+	top: 270%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 10%;
+}
+
+div.trademarkfeed p{
+	color: #fff;
+	text-shadow: 2px 2px 5px black;
+	font-size: 13px;
+	position: absolute;
+	top: 297%;
+	left: 90%;
+	transform: translate(-50%,-50%);
+}
+
+.gal{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.gal h1{
+	color: #fff;
+	font-size: 30px;
+	text-shadow: 2px 2px 5px black;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+  width: 30%;
+}
+
+div.sizechoc:hover {
+  border: 1px solid transparent;
+}
+
+div.sizepink:hover {
+  border: 1px solid transparent;
+}
+
+div.sizecheese:hover {
+  border: 1px solid transparent;
+}
+
+div.sizechoc img {
+  width: 26%;
+  height: auto;
+}
+
+div.sizepink img {
+  width: 105%;
+  height: auto;
+}
+
+div.sizecheese img {
+  width: 42%;
+  height: auto;
+}
+
+
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 5px black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div.responsive {
+    position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+div.choc{
+	position: absolute;
+	top: 65%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+}
+
+div.cheese{
+	position: absolute;
+	top: 65%;
+	left: 80%;
+	transform: translate(-50%,-50%);
+}
+
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .choc {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .choc {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .cheese {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .cheese {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.trademarkgal p{
+	color: #fff;
+	text-shadow: 2px 2px 5px black;
+	font-size: 13px;
+	position: absolute;
+	top: 95%;
+	left: 90%;
+	transform: translate(-50%,-50%);
+}
+
+.contact{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.contact h1{
+	color: #fff;
+	font-size: 30px;
+	text-shadow: 2px 2px 5px black;
+}
+
+div.toreach p{
+	color:#FFF;
+	position: absolute;
+	top: 37%;
+	left: 50%;
+	text-shadow: 2px 2px 2px black;
+	transform: translate(-50%,-50%);
+}
+
+div.fb{
+	position: absolute;
+	top: 46%;
+	left: 56%;
+	transform: translate(-50%,-50%);
+}
+
+div.insta{
+	position: absolute;
+	top: 46%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+div.twitter{
+	position: absolute;
+	top: 46%;
+	left: 44%;
+	transform: translate(-50%,-50%);
+}
+
+div.yt{
+	position: absolute;
+	top: 59%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+div.dropbox p{
+	position: absolute;
+	top: 67%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #FFF;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	font-size: 15px;
+}
+
+div.inquries{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+div.inquries td{
+	color: #FFF;
+	text-shadow: 2px 2px 2px black;
+}
+
+div.trademarkcontact p{
+	position: absolute;
+	top: 97%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #FFF;
+	text-shadow: 2px 2px 2px black;
+	font-size: 15px;
+}
+
